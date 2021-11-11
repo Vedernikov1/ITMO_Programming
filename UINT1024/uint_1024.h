@@ -1,6 +1,0 @@
-
-#ifndef UNTITLED4_UINT_1024_H
-#define UNTITLED4_UINT_1024_H
-
-#endif //UNTITLED4_UINT_1024_H
-
