@@ -125,7 +125,7 @@ void scanf_value(uint1024_t *x) {
 
 
 // Функция вывода числа типа Uint-1024
-void printf_value(uint1024_t x) {
+void printf_value((uint1024_t x)) {
     uint1024_t res = from_uint(0);
     uint1024_t null = from_uint(0);
     char line[310];
