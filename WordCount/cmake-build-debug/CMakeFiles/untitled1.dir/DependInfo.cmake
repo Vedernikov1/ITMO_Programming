@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/User/CLionProjects/WordCount/WordCount.c" "C:/Users/User/CLionProjects/WordCount/cmake-build-debug/CMakeFiles/untitled1.dir/WordCount.c.obj"
+  "C:/Users/User/Documents/GitHub/ITMO_Programming/WordCount/WordCount.c" "C:/Users/User/Documents/GitHub/ITMO_Programming/WordCount/cmake-build-debug/CMakeFiles/untitled1.dir/WordCount.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "MSVC")
 

@@ -21,7 +21,7 @@ int main(int argc, char *argv[]) {
         printf("%d", line_counts);
     }
 
-        // случай, для команды, требующий посчитать кол-во слов
+    // случай, для команды, требующий посчитать кол-во слов
     else if ((strcmp(argv[1], "-w") == 0) || (strcmp(argv[1], "--words") == 0)) {
         int is_devider = 1;
         while ((symbol = fgetc(lab1_data)) != EOF) {
@@ -35,7 +35,7 @@ int main(int argc, char *argv[]) {
         printf("%d", word_counts);
     }
 
-        // Случай, для команды, требующий посчитать размер файла в байтах
+    // Случай, для команды, требующий посчитать размер файла в байтах
     else if ((strcmp(argv[1], "-c") == 0) || (strcmp(argv[1], "--bytes") == 0)) {
         while ((symbol = fgetc(lab1_data)) != EOF) {
             symbol_counts += 1;
@@ -43,10 +43,8 @@ int main(int argc, char *argv[]) {
         printf("%d", symbol_counts);
     }
 
-        // Случай, для ввода некорректных данных
-    else {
-        printf("%s", "incorrect command");
-    }
+    // Случай, для ввода некорректных данных
+    else printf("%s", "incorrect command");
 }
 
 
