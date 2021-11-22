@@ -11,7 +11,7 @@ int size = 0, capacity = 2;     // Переменные для динамиче�
 
 
 // Парсинг строки
-int * reformat_s (char *line) {
+int * reformat_s (((char *line))) {
     int *time = (int *)malloc(sizeof (int) * 5);
     int c = 0, k = 0;
 
